@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>斜方投射</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>斜方投射</h1>
+  <div class="controls">
+    <label>初速度 v₀ [m/s]：<input type="range" id="v0" min="1" max="30" value="15"> <span id="v0Val">15</span></label>
+    <label>角度 θ [°]：<input type="range" id="angle" min="0" max="90" value="45"> <span id="angleVal">45</span></label>
+    <button id="start">発射</button>
+  </div>
+  <canvas id="canvas" width="800" height="400"></canvas>
+  <p id="info"></p>
+  <p><a href="../">← 一覧へ戻る</a></p>
+  <script src="main.js"></script>
+</body>
+</html>
