@@ -1,0 +1,4 @@
+body { font-family: sans-serif; max-width: 860px; margin: 0 auto; padding: 16px; }
+canvas { width: 100%; border: 1px solid #ccc; background: #f9fbff; }
+.controls label { display: block; margin: 8px 0; }
+button { padding: 6px 16px; font-size: 1rem; }
